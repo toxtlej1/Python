@@ -1,7 +1,11 @@
 ''' 
-Design with Python 
-The lesson plans in which I teach middle school kids how to program with Python 
-Each week pertains to a new lesson in which arrays, functions, dictionaries, and lists were used extensively. 
-The overall goal of the class is to teach the students the importance of Python, avoid syntax errors, and understand 
-how to use these key fundamentals when programming with Python to prepare them for Advanced Design with Python. 
+Design with Python - Lesson 3
+This week serves as an introduction into functions and what are it's arguments. Students understood that functions input's are defined as arguments and it's main output are known as return values. They were shown how to to def them using the python custom keyword def ... () and importing libraries or modules as they are referred to in Python. I then explained how they can easily call the embedded functions within each module by using the dot notation. An example of this is when they were asked to import the module random within a Python shell (IDLE in this case) and they did so and called the function randint() by doing the following:
+import random
+x = random.randint(1, 100)  # I explained by doing this they are defining a variable named x and calling the random.randint
+                            # function and asking for a random number to appear by setting a range between 1 to 100. 
+                            # They were able to understand how this worked by then typing in x to see the random numeric value that 
+                            # displayed.
+ x
+ 10
 '''
